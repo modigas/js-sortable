@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <title>Sortable</title>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --background: hsl(0, 0%, 12%);
+            --text: hsl(0, 0%, 80%);
+            --clear: hsl(0, 0%, 65%);
+            --disabled: hsl(0, 0%, 35%);
+            --purple: #bb73e6;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        select {
+            /* position: fixed; */
+            font-family: 'DotGothic16', sans-serif;
+            background-color: var(--background);
+            color: rgb(0, 255, 255);
+            /* margin-bottom: 10px;
+            padding: 10px; */
+        }
+
+        body {
+            font-family: 'DotGothic16', sans-serif;
+            letter-spacing: 1.5px;
+            background: var(--background);
+            /* display: flex; */
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            width: 100vw;
+            padding: 5rem;
+            font-size: 12px;
+            position: absolute;
+        }
+
+        th {
+            resize:horizontal; 
+            overflow:auto;
+        }
+
+        input {
+            /* position: fixed; */
+            font-family: 'DotGothic16', sans-serif;
+            /* float: left;
+            margin-right: 10px;
+            margin-bottom: 10px; */
+            background-color: black;
+            color: rgb(0, 255, 255);
+            border-width: 1px;
+            border-color: cyan;
+            padding: 1px;
+        }
+
+        /* table, th, td {
+            border: 1px solid rgb(122, 122, 122);
+            font-size: 15px;
+            color: rgb(0, 255, 255);
+            width: 100%;
+        } */
+
+        label {
+            font-family: 'DotGothic16', sans-serif;
+            color: rgb(0, 255, 255);
+            font-size: 15px;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        .content {
+            /* position: absolute; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .func {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .search {
+            /* position: relative; */
+            align-self: center;
+            margin: 10px;
+            padding: 10px;
+            min-height: 20px;
+        }
+
+        .select, .order {
+            /* position: relative; */
+            align-self: center;
+            margin: 10px;
+            padding: 10px;
+            min-height: 20px;
+        }
+
+
+        table {
+            /* position: relative; */
+            text-align: center;
+            width: 100%;
+        }
+
+        table, th, td {
+            border: 1px solid rgb(122, 122, 122);
+            font-size: 15px;
+            color: rgb(0, 255, 255);
+            /* width: 100%; */
+        }
+
+        /* .table {
+            position: relative;
+        } */
+
+        th.powerstats {
+            text-align: right;
+        }
+
+        img {
+            width: auto;
+        }
+
+        .pagesfunc {
+            display: inline;
+            color: cyan;
+            font-size: 20px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .change-page {
+            display: inline;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+</body>
+
+</html>
